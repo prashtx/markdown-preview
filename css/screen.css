@@ -36,6 +36,7 @@ padding: 0 10px 15px 10px;
 #user_input, #html_result {
 width: 560px;
 height: 170px;
+margin-top: 15px;
 }
 
 #result {

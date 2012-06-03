@@ -18,13 +18,6 @@
       <div id="header-wrapper">
         <div id="header" class="basic" >
           <div class="site">
-              <a class ="logo" href="http://github.github.com/github-flavored-markdown/"><img src="images/gfm.png" alt="github flavored markdown" width="379" height="45" /></a>
-            <div class="topsearch">
-              <ul class="nav logged out">
-                <li><a href="http://support.github.com/">Support</a></li>
-                <li><a href="http://github.com/">Back to GitHub</a></li>
-              </ul>
-            </div><!-- .topsearch -->
           </div><!-- .site -->
         </div><!-- /#header .basic -->
       </div><!-- /#header-wrapper -->
@@ -35,25 +28,13 @@
 			
             <h1>GFM Live Preview</h1>
 
-            This page provides a live GFM preview, rendered client-side using javascript.
-            The majority of the credit goes to the wonderful [Showdown](http://softwaremaniacs.org/playground/showdown-highlight/) script, which handles the meat of the processing.
-            GFM modifications for newlines, underscore-words, autolinking and GitHub SHA1/issue link syntaxes were added.
-
-            <p class="warn">
-              GitHub now has previews on all inputs that use GFM.
-              <strong>This live preview should be considered deprecated.</strong>
-              It may not render exactly the same way github.com
-              will due to differences in markdown libraries.
-            </p>
+            This page provides a live GFM preview, rendered server-side using node and robotskirt.
 
             <h2>User Input</h2>
 
-            <script type="text/javascript">
-              var GitHub = {}
-              GitHub.nameWithOwner = "mojombo/god";
-            </script>
-
-            <textarea id="user_input"></textarea>
+            <div>
+              <textarea id="user_input"></textarea>
+            </div>
 
             <h2>Live preview</h2>
 
@@ -64,19 +45,8 @@
             <textarea id="html_result"></textarea>
 
 
-
-
-
-
           </div><!-- /.content -->
           
-          <div class="sidebar">
-      	    <div class="cheatsheet">
-      	      <h2>Markdown Cheat Sheet</h2>
-      	      <p>On Markdown-enabled portions of the site, press <strong>M</strong> on your keyboard to display a cheat sheet. </p>
-      	    </div><!-- /.cheatsheet -->
-          </div><!-- /.sidebar -->
-        
         </div><!--/#content .site -->
       </div><!-- /#wrapper -->
       
