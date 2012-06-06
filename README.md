@@ -11,3 +11,7 @@ The tool consists of a server that serves up static files and converts Markdown 
 
 The idea is to run this locally when necessary.
 
+## TODO
+* Add javascript/css for syntax highlighting in code blocks
+* Improve layout
+
