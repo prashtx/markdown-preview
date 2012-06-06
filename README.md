@@ -12,6 +12,7 @@ The tool consists of a server that serves up static files and converts Markdown 
 The idea is to run this locally when necessary.
 
 ## TODO
+* Change css to match Github's Markdown display
 * Add javascript/css for syntax highlighting in code blocks
 * Improve layout
 
